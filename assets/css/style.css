@@ -1,0 +1,141 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto,arial,sans-serif;
+}
+
+/* HEADER */
+header{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  height: 101px;
+  background-color: white;
+  border-bottom: 1px solid #CBCBCB;
+}
+.h-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 20px;
+}
+
+.h-top .h-left,
+.h-top .h-right{
+  display: flex;
+  align-items: center;
+}
+
+.h-top .h-left img{
+  width: 70px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.h-top .h-left h3{
+  color: #5f6368;
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 1px;
+  cursor: pointer;
+
+}
+
+.h-top .h-right img{
+  width: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.h-top .h-right i{
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.h-bottom ul{
+  display: flex;
+  list-style: none;
+}
+
+.h-bottom ul li{
+  margin: 0 20px;
+  padding-bottom: 10px;
+  color: #5f6368;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.h-bottom ul li.active{
+  border-bottom: 3px solid #3367D6;
+  color: #3367D6;
+}
+
+/* MAIN */
+main{
+  margin-top: 130px;
+}
+.wrap{
+  margin: auto;
+  width: 1000px;
+}
+
+.wrap ul{
+  list-style: none;
+}
+
+.wrap ul .domanda{
+  color: #3c4043;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 64px 0 0 0;
+  margin-bottom: 25px;
+}
+.wrap ul .risposta{
+  color: rgba(0,0,0,0.87);
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+/* FOOTER */
+footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: #F5F5F5;
+}
+.wrap-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+footer .wrap-footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+footer ul li {
+  margin-right: 15px;
+  color: #626262;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+footer .language {
+  display: flex;
+  align-items: center;
+
+}
+footer .language i {
+  font-size: 18px;
+  color: #30A2F7;
+}
+footer .language select {
+  width: 180px;
+  margin-left: 10px;
+}
